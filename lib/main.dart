@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animations/screens/home_screen.dart';
-
+import 'package:flutter_animations/flutter_animations_mastery/animation_test.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +20,8 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: HomeScreen(),
+      // home: HomeScreen(),
+      home: AnimationTest(),
     );
   }
 }
