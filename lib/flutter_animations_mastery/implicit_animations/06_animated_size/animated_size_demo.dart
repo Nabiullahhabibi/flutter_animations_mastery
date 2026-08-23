@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const AnimatedSizeDemoApp());
-}
-
 class AnimatedSizeDemoApp extends StatelessWidget {
   const AnimatedSizeDemoApp({super.key});
 
