@@ -4,12 +4,16 @@ import 'package:flutter_animations/flutter_animations_mastery/implicit_animation
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/03_animated_align/animated_align_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/04_animated_positioned/animated_positioned_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/05_animated_padding/animated_padding_demo.dart';
+import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/06_animated_size/animated_size_demo.dart';
+import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/07_animated_switcher/animated_switcher_demo.dart';
+import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/08_tween_animation_builder/tween_animation_builder_demo.dart';
+import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/09_animated_default_Text_style/animated_default_Text_style_demo.dart';
 
 class AnimationTest extends StatelessWidget {
   const AnimationTest({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const AnimatedPaddingDemoApp();
+    return const AnimatedDefaultTextStyleDemoApp();
   }
 }

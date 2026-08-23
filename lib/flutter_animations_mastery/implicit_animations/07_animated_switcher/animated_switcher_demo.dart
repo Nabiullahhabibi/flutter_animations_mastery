@@ -25,22 +25,25 @@ class _AnimatedSwitcherDemoState extends State<AnimatedSwitcherDemo> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        _buildDemoSelector(),
-        const Divider(height: 1),
-        Expanded(
-          child: AnimatedSwitcher(
-            duration: const Duration(milliseconds: 300),
-            switchInCurve: Curves.easeOut,
-            switchOutCurve: Curves.easeIn,
-            child: KeyedSubtree(
-              key: ValueKey(_selectedDemo),
-              child: _buildSelectedDemo(),
+    return Scaffold(
+      appBar: AppBar(title: const Text('AnimatedSwitcher'), centerTitle: true),
+      body: Column(
+        children: [
+          _buildDemoSelector(),
+          const Divider(height: 1),
+          Expanded(
+            child: AnimatedSwitcher(
+              duration: const Duration(milliseconds: 300),
+              switchInCurve: Curves.easeOut,
+              switchOutCurve: Curves.easeIn,
+              child: KeyedSubtree(
+                key: ValueKey(_selectedDemo),
+                child: _buildSelectedDemo(),
+              ),
             ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 
