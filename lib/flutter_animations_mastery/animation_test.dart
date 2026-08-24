@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animations/flutter_animations_mastery/explicit_animations/explicit_animation_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/02_animated_opacity/animated_opacity_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/02_animated_opacity/animated_opacity_demo_full.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/03_animated_align/animated_align_demo.dart';
@@ -14,6 +15,6 @@ class AnimationTest extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AnimatedDefaultTextStyleDemoApp();
+    return const ExplicitAnimationApp();
   }
 }
