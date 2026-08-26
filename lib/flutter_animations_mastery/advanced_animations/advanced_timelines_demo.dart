@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const AdvancedTimelinesApp());
-
 class AdvancedTimelinesApp extends StatelessWidget {
   const AdvancedTimelinesApp({super.key});
 
@@ -28,7 +26,7 @@ class AdvancedTimelinesScreen extends StatefulWidget {
 }
 
 class _AdvancedTimelinesScreenState extends State<AdvancedTimelinesScreen>
-    with SingleTickerProviderStateMixin {
+    with TickerProviderStateMixin {
   late final AnimationController _controller;
   late final AnimationController _pulseController;
 
@@ -97,10 +95,7 @@ class _AdvancedTimelinesScreenState extends State<AdvancedTimelinesScreen>
       duration: const Duration(milliseconds: 900),
     );
     _pulse = Tween(begin: 0.85, end: 1.15).animate(
-      CurvedAnimation(
-        parent: _pulseController,
-        curve: Curves.easeInOut,
-      ),
+      CurvedAnimation(parent: _pulseController, curve: Curves.easeInOut),
     );
 
     _pulseController.repeat(reverse: true);
@@ -331,7 +326,7 @@ class _StatCard extends StatelessWidget {
 
 class _LiveStatus extends AnimatedWidget {
   const _LiveStatus({required Animation<double> pulse})
-      : super(listenable: pulse);
+    : super(listenable: pulse);
 
   Animation<double> get pulse => listenable as Animation<double>;
 
@@ -408,12 +403,10 @@ class _ControlPanel extends StatelessWidget {
                     const SizedBox(width: 8),
                     OutlinedButton(
                       onPressed: onStop,
-                      child: const Text('Stop')),
-                    const SizedBox(width: 8),
-                    TextButton(
-                      onPressed: onReset,
-                      child: const Text('Reset'),
+                      child: const Text('Stop'),
                     ),
+                    const SizedBox(width: 8),
+                    TextButton(onPressed: onReset, child: const Text('Reset')),
                   ],
                 ),
               ),

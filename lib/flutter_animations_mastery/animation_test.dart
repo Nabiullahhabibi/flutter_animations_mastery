@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animations/flutter_animations_mastery/advanced_animations/advanced_timelines_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/explicit_animations/explicit_animation_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/02_animated_opacity/animated_opacity_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/02_animated_opacity/animated_opacity_demo_full.dart';
@@ -9,12 +10,13 @@ import 'package:flutter_animations/flutter_animations_mastery/implicit_animation
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/07_animated_switcher/animated_switcher_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/08_tween_animation_builder/tween_animation_builder_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/09_animated_default_Text_style/animated_default_Text_style_demo.dart';
+import 'package:flutter_animations/flutter_animations_mastery/transition_animations/transition_animations_demo.dart';
 
 class AnimationTest extends StatelessWidget {
   const AnimationTest({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const ExplicitAnimationApp();
+    return const AdvancedTimelinesApp();
   }
 }
