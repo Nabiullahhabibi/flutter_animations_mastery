@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const PageRouteBuilderDemoApp());
-}
 
 class PageRouteBuilderDemoApp extends StatelessWidget {
   const PageRouteBuilderDemoApp({super.key});
