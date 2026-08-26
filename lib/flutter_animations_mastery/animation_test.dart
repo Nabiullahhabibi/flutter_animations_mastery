@@ -10,6 +10,8 @@ import 'package:flutter_animations/flutter_animations_mastery/implicit_animation
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/07_animated_switcher/animated_switcher_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/08_tween_animation_builder/tween_animation_builder_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/09_animated_default_Text_style/animated_default_Text_style_demo.dart';
+import 'package:flutter_animations/flutter_animations_mastery/navigation%20_animations/page_route/page_route_demo.dart';
+import 'package:flutter_animations/flutter_animations_mastery/navigation%20_animations/page_route_builder/page_route_builder_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/transition_animations/transition_animations_demo.dart';
 
 class AnimationTest extends StatelessWidget {
@@ -17,6 +19,6 @@ class AnimationTest extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AdvancedTimelinesApp();
+    return const PageRouteBuilderDemoApp();
   }
 }
