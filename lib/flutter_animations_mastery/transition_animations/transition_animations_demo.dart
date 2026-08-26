@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const TransitionAnimationsApp());
-}
 
 class TransitionAnimationsApp extends StatelessWidget {
   const TransitionAnimationsApp({super.key});
