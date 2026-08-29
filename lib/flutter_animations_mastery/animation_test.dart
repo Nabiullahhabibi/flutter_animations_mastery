@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations/flutter_animations_mastery/advanced_animations/advanced_timelines_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/explicit_animations/explicit_animation_demo.dart';
+import 'package:flutter_animations/flutter_animations_mastery/gesture_driven_animations/gesture_animations_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/02_animated_opacity/animated_opacity_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/02_animated_opacity/animated_opacity_demo_full.dart';
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/03_animated_align/animated_align_demo.dart';
@@ -12,6 +13,8 @@ import 'package:flutter_animations/flutter_animations_mastery/implicit_animation
 import 'package:flutter_animations/flutter_animations_mastery/implicit_animations/09_animated_default_Text_style/animated_default_Text_style_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/navigation%20_animations/page_route/page_route_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/navigation%20_animations/page_route_builder/page_route_builder_demo.dart';
+import 'package:flutter_animations/flutter_animations_mastery/navigation%20_animations/shared_element_transition/shared_element_transition_demo.dart';
+import 'package:flutter_animations/flutter_animations_mastery/physics_animations/physics_animations_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/transition_animations/transition_animations_demo.dart';
 
 class AnimationTest extends StatelessWidget {
@@ -19,6 +22,6 @@ class AnimationTest extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const PageRouteBuilderDemoApp();
+    return const PhysicsAnimationsDemo();
   }
 }
