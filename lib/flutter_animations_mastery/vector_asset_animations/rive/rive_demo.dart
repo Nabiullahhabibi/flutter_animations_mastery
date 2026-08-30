@@ -359,7 +359,7 @@ class _RiveDemoScreenState extends State<RiveDemoScreen> {
   Future<void> _loadRive() async {
     try {
       final file = await File.asset(
-        'assets/rive/animation.riv',
+        'assets/animations/rive/animation.riv',
         riveFactory: Factory.rive,
       );
 
