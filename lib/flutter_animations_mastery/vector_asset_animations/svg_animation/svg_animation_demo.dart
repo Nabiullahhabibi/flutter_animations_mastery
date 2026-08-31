@@ -171,7 +171,7 @@ class _SvgAnimationDemoScreenState extends State<SvgAnimationDemoScreen>
                     border: Border.all(color: Colors.grey.shade300),
                   ),
                   child: SvgPicture.asset(
-                    'assets/svg/loading.svg',
+                    'assets/animations/svg/loading.svg',
                     fit: BoxFit.contain,
                   ),
                 ),
@@ -270,7 +270,9 @@ class _SvgAnimationDemoScreenState extends State<SvgAnimationDemoScreen>
                       SizedBox(
                         width: 120,
                         height: 120,
-                        child: SvgPicture.asset('assets/svg/loading.svg'),
+                        child: SvgPicture.asset(
+                          'assets/animations/svg/loading.svg',
+                        ),
                       ),
 
                       const SizedBox(height: 10),
@@ -313,7 +315,7 @@ class _SvgAnimationDemoScreenState extends State<SvgAnimationDemoScreen>
                           );
                         },
                         child: SvgPicture.asset(
-                          'assets/svg/loading.svg',
+                          'assets/animations/svg/loading.svg',
                           width: 80,
                           height: 80,
                         ),
