@@ -16,12 +16,14 @@ import 'package:flutter_animations/flutter_animations_mastery/navigation%20_anim
 import 'package:flutter_animations/flutter_animations_mastery/navigation%20_animations/shared_element_transition/shared_element_transition_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/physics_animations/physics_animations_demo.dart';
 import 'package:flutter_animations/flutter_animations_mastery/transition_animations/transition_animations_demo.dart';
+import 'package:flutter_animations/flutter_animations_mastery/vector_asset_animations/lottie/lottie_demo.dart';
+import 'package:flutter_animations/flutter_animations_mastery/vector_asset_animations/svg_animation/svg_animation_demo.dart';
 
 class AnimationTest extends StatelessWidget {
   const AnimationTest({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const PhysicsAnimationsDemo();
+    return const SvgAnimationDemoApp();
   }
 }
