@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations/flutter_animations_mastery/animation_test.dart';
+import 'package:flutter_animations/screens/2-lamp_on_off_animaiton/lamp_on_off_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: HomeScreen(),
-      home: AnimationTest(),
+      home: LampControlScreen(),
     );
   }
 }
