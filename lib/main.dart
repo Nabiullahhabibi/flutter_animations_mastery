@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animations/flutter_animations_mastery/animation_test.dart';
 import 'package:flutter_animations/screens/2-lamp_on_off_animaiton/lamp_on_off_screen.dart';
 import 'package:flutter_animations/screens/4-3d_album_screen/3d_album_screen.dart';
+import 'package:flutter_animations/screens/5-neon_square_screen/neon_square_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: HomeScreen(),
-      home: SplashScreen3D(),
+      home: NeonAnimationScreen(),
     );
   }
 }
