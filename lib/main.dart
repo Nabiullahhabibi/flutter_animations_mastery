@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animations/screens/11-ink-drop-navigation/ink_drop_navigation_screen.dart';
 import 'package:flutter_animations/screens/12-wave-hand/wave_hand_screen.dart';
 import 'package:flutter_animations/screens/13-emoji-bounce-wheel/emoji_bounce_wheel_screen.dart';
+import 'package:flutter_animations/screens/14-flip-card/flip_card_screen.dart';
+import 'package:flutter_animations/screens/15-page-flip/page_flip_screen.dart';
+import 'package:flutter_animations/screens/16-liquid-glass/liquid_glass_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +26,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: HomeScreen(),
-      home: InkDropNavigationScreen(),
+      home: LiquidGlassLoginScreen(),
     );
   }
 }
