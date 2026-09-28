@@ -5,6 +5,10 @@ import 'package:flutter_animations/screens/13-emoji-bounce-wheel/emoji_bounce_wh
 import 'package:flutter_animations/screens/14-flip-card/flip_card_screen.dart';
 import 'package:flutter_animations/screens/15-page-flip/page_flip_screen.dart';
 import 'package:flutter_animations/screens/16-liquid-glass/liquid_glass_screen.dart';
+import 'package:flutter_animations/screens/17-origami-fold-ui/origami_fold_ui_screen.dart';
+import 'package:flutter_animations/screens/18-slide-to-confirm-action-bar/slide_to_confirm_action_bar_screen.dart';
+import 'package:flutter_animations/screens/19-fluid-progress-bar/fluid_progress_bar_screen.dart';
+import 'package:flutter_animations/screens/20-story-style-stepper/story_style_stepper_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +30,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: HomeScreen(),
-      home: LiquidGlassLoginScreen(),
+      home: StoryStyleStepperScreen(),
     );
   }
 }
