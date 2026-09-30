@@ -9,6 +9,7 @@ import 'package:flutter_animations/screens/17-origami-fold-ui/origami_fold_ui_sc
 import 'package:flutter_animations/screens/18-slide-to-confirm-action-bar/slide_to_confirm_action_bar_screen.dart';
 import 'package:flutter_animations/screens/19-fluid-progress-bar/fluid_progress_bar_screen.dart';
 import 'package:flutter_animations/screens/20-story-style-stepper/story_style_stepper_screen.dart';
+import 'package:flutter_animations/screens/22-pin-drop-animation/pin_drop_animation_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: HomeScreen(),
-      home: StoryStyleStepperScreen(),
+      home: PinDropAnimationScreen(),
     );
   }
 }
