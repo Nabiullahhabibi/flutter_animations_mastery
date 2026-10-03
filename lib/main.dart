@@ -10,6 +10,15 @@ import 'package:flutter_animations/screens/18-slide-to-confirm-action-bar/slide_
 import 'package:flutter_animations/screens/19-fluid-progress-bar/fluid_progress_bar_screen.dart';
 import 'package:flutter_animations/screens/20-story-style-stepper/story_style_stepper_screen.dart';
 import 'package:flutter_animations/screens/22-pin-drop-animation/pin_drop_animation_screen.dart';
+import 'package:flutter_animations/screens/23-scroll-animation/scroll_animation_screen.dart';
+import 'package:flutter_animations/screens/24-elevator-style-text-reveal/elevator_style_text_reveal.dart';
+import 'package:flutter_animations/screens/25-floating-emojis/floating_emojis_screen.dart';
+import 'package:flutter_animations/screens/26-emoji-explosion/emoji_explosion_screen.dart';
+import 'package:flutter_animations/screens/27-emotional-emoji/emotional_emoji_screen.dart';
+import 'package:flutter_animations/screens/28-unlock-card-animation/unlock_card_animation_screen.dart';
+import 'package:flutter_animations/screens/29-pulse-absorb-animation/pulse_absorb_animation_screen.dart';
+import 'package:flutter_animations/screens/30-ink-magnet-login-animation/ink_magnet_login_animation_screen.dart';
+import 'package:flutter_animations/screens/31-letter-growing-animation/letter_growing_animation_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +40,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: HomeScreen(),
-      home: PinDropAnimationScreen(),
+      home: LetterGrowingAnimationScreen(),
     );
   }
 }
